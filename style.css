@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    background-color: aqua;
+}
+
+
+.right{
+    background-color: brown;
+}
+.form-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    box-shadow:0 0 0 15px black;
+}
+.main_form{
+    background-color: rgb(136, 170, 201);
+    padding: 15px;
+}
+
+
+
